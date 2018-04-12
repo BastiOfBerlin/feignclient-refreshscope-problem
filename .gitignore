@@ -1,0 +1,19 @@
+# Eclipse
+.classpath
+.project
+.checkstyle
+.eclipse-pmd
+.settings/
+*/.gitignore
+*.springBeans
+*.factorypath
+
+# Maven
+target/
+bin/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+tmp/

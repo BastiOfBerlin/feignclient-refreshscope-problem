@@ -1,0 +1,17 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: feignclient-refreshscope-problem-app
+client:
+  api-url: default
+feign:
+  hystrix:
+    enabled: false
+logging:
+  level:
+    eu:
+      bastiofberlin:
+        samples:
+          feignclientRefreshscopeProblem:
+            ChuckNorrisApiClient: DEBUG
